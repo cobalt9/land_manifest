@@ -6,7 +6,7 @@
 	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat"/>
 	<project name="cobalt9/android_device_xiaomi_land" path="device/xiaomi/land" remote="github" revision="cm-14.1"/>
 	<project name="cobalt9/android_kernel_xiaomi_msm8937-1" path="kernel/xiaomi/msm8937" remote="github" revision="cm-14.1"/>
-	<project name="cobalt9/proprietary_vendor_xiaomi-1/land" path="vendor/xiaomi/land" remote="github" revision="cm-14.1-land"/>
+	<project name="cobalt9/proprietary_vendor_xiaomi-1" path="vendor/xiaomi/land" remote="github" revision="cm-14.1-land"/>
 	<remove-project name="LineageOS/android_hardware_qcom_display"/>
 	<project name="cobalt9/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" revision="cm-14.1-caf-8937"/>
 	<remove-project name="LineageOS/android_hardware_qcom_audio"/>
