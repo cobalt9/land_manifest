@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="cm-14.1"/>
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings"/>
+	<project name="LineageOS/android_external_stlport" path="external/stlport"/>
+	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat"/>
+	<project name="cobalt9/android_device_xiaomi_land" path="device/xiaomi/land" remote="github" revision="cm-14.1"/>
+	<project name="cobalt9/android_kernel_xiaomi_msm8937-1" path="kernel/xiaomi/msm8937" remote="github" revision="cm-14.1"/>
+	<project name="cobalt9/proprietary_vendor_xiaomi-1/land" path="vendor/xiaomi/land" remote="github" revision="cm-14.1-land"/>
+	<remove-project name="LineageOS/android_hardware_qcom_display"/>
+	<project name="cobalt9/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" revision="cm-14.1-caf-8937"/>
+	<remove-project name="LineageOS/android_hardware_qcom_audio"/>
+	<project name="cobalt9/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" revision="cm-14.1-caf-8937"/>
+	<remove-project name="LineageOS/android_hardware_qcom_media"/>
+	<project name="cobalt9/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" revision="cm-14.1-caf-8937"/>
+</manifest>
