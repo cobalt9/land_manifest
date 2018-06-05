@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project name="cobalt9/android_device_xiaomi_land-1" path="device/xiaomi/land" remote="github" revision="lineage-15.1"/>
-	<project name="cobalt9/android_kernel_xiaomi_msm8937-1" path="kernel/xiaomi/msm8937" remote="github" revision="lineage-15.1"/>
-	<project name="cobalt9/proprietary_vendor_xiaomi-2" path="vendor/xiaomi" remote="github" revision="lineage-15.1-land"/>
+	<project name="cobalt9/android_device_xiaomi_land-1" path="device/xiaomi/land" remote="github" revision="lineage-15.1-treble"/>
+	<project name="cobalt9/android_kernel_xiaomi_msm8937-1" path="kernel/xiaomi/msm8937" remote="github" revision="lineage-15.1-treble"/>
+	<project name="cobalt9/proprietary_vendor_xiaomi-2" path="vendor/xiaomi" remote="github" revision="lineage-15.1-land-treble"/>
 
 </manifest>
